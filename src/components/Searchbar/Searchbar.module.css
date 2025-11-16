@@ -1,0 +1,47 @@
+.searchbarContainer {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  height: 55px;
+  align-items: center;
+}
+
+.inputSearch {
+  background-color: #fafafa;
+  height: 55px;
+  width: 60%;
+  color: #000;
+  font-size: 30px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  padding: 0 15px;
+  line-height: 1;
+}
+.inputSearch::placeholder {
+  color: #888;
+}
+.btnSearch {
+  width: 75px;
+  height: 100%;
+  background: #1ac191;
+  color: #fff;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  box-sizing: border-box;
+  transition: opacity 0.3s ease;
+}
+
+.btnSearch:hover {
+  opacity: 0.85;
+}
+
+.searchIcon {
+  background: transparent; /* no es necesario colorearlo igual que el fondo */
+}
