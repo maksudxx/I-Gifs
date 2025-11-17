@@ -13,13 +13,19 @@ export const Navbar = () => {
           <BsFillGridFill />
         </div>
         <div className={styles.buttonsContainer}>
-          <p className={`${styles.btn} ${styles.btnLogin}`}>
+          <p
+            className={`${styles.btn} ${styles.btnLogin}`}
+            onClick={() => alert("PROXIMAMENTE :)")}
+          >
             <span className={styles.iconBtn}>
               <IoLogIn className={styles.icono} />
             </span>
             Iniciar sesión
           </p>
-          <p className={`${styles.btn} ${styles.btnLanguage}`}>
+          <p
+            className={`${styles.btn} ${styles.btnLanguage}`}
+            onClick={() => alert("PROXIMAMENTE :)")}
+          >
             {" "}
             <span className={styles.iconBtn}>
               <IoLanguageSharp className={styles.icono} />
