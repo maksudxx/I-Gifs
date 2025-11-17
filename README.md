@@ -62,11 +62,11 @@ Construida con **React**, **TypeScript** y **CSS Modules**.
 
 ## 🌐 Demo
 
-El enlace a producción será agregado aquí cuando esté disponible.
+(https://i-gifs-1f5i49pjp-maksudxxs-projects.vercel.app/)
 
 ---
 
 ## 👤 Autor
 
 **Facundo Maksud**  
-[text](https://www.linkedin.com/in/facundo-maksud/)
+[LINKEDIN](https://www.linkedin.com/in/facundo-maksud/)
